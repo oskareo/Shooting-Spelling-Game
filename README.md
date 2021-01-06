@@ -9,3 +9,6 @@ this paths are in the following classes.
   1. UserName.xaml.cs  line 128  //saves user names and scors into the database(.mdb) 
   2. playGameScreen.xaml.cs   line 763   //get the 50 words that have to be spelled from the database
   3. letters.cs   line 52    //gets the picture of each letter from the current word(word that has to be spelled)
+
+#instructions
+Use the touchpad of the laptop to aim and the left buttun of the touchpad to shoot. Move the character with keys letf, up, down and right.
