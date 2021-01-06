@@ -1,7 +1,8 @@
 # Shooting-Spelling-Game
 This was an educational game that I developed on my second year of University for the Application Development module
 It consists of a character/shooter who is presented with a word that has to be spelled correctly. Different letters will appear from random places of the screen at a random order. 
-The aim is for the character to shoot the letters in the correct order, hence spelling the word correctly
+The aim is for the character to shoot the letters in the correct order, hence spelling the word correctly.
+For this project I used WPF instead of Windows Form for graphical purposes.
 #issue
 The path to the databases has to be changed according to the machine that the solution/project is on.
 this paths are in the following classes.
