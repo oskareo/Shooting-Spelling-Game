@@ -1,0 +1,48 @@
+﻿<Window x:Name="theGame" x:Class="Application_Dev_Project.playGameScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Application_Dev_Project"
+        mc:Ignorable="d"
+        Title="Game" Height="701.917" Width="844.886" KeyDown="theGame_KeyDown">
+
+
+    <Canvas x:Name="gameCanvas" Margin="108,92,10,8" Cursor="Arrow" MouseLeftButtonDown="gameCanvas_MouseLeftButtonDown" Focusable="True" MouseMove="gameCanvas_MouseMove_1" MouseLeave="gameCanvas_MouseLeave">
+        <Button x:Name="returnMainMenuBtn" Content="Main Menu" Canvas.Top="-61" Width="75" Canvas.Left="-85" HorizontalAlignment="Left" VerticalAlignment="Top" Click="returnMainMenuBtn_Click"/>
+        <Button x:Name="endGameBtn" Content="Exit" Canvas.Left="25" Canvas.Top="-61" Width="75" HorizontalAlignment="Left" VerticalAlignment="Top" Click="endGameBtn_Click_1"/>
+        <Button x:Name="pauseResumeBtn" Content="Pause/Resume" Canvas.Right="70" Canvas.Top="-61" Width="97" HorizontalAlignment="Right" VerticalAlignment="Top" Canvas.Left="505"/>
+        <TextBlock x:Name="gameWatch" Canvas.Right="10" TextWrapping="Wrap" Text="0" Canvas.Top="-61" Width="44" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <TextBlock x:Name="elementsLbl" Canvas.Left="167" TextWrapping="Wrap" Canvas.Top="-40" Height="36" Width="258" FontSize="24" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+        <TreeView HorizontalAlignment="Left"
+        Name="treeView1" VerticalAlignment="Stretch" Canvas.Left="3" Canvas.Top="-68" Height="0" RenderTransformOrigin="0.5,0.5" Width="810" />
+        <Label Content="Time remaining:" Canvas.Left="505" Canvas.Top="-30" Width="97"/>
+        <TextBlock x:Name="timeRemainingLbl" Canvas.Left="624" TextWrapping="Wrap" Text="0" Canvas.Top="-30" Height="24" Width="62" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="OCR A Std" TextAlignment="Center"/>
+        <TextBlock x:Name="letter1" Canvas.Left="-79" TextWrapping="Wrap" Canvas.Top="-1" Height="36" Text="x" FontSize="24" FontWeight="Bold"/>
+        <TextBlock x:Name="letter2" Canvas.Left="-79" TextWrapping="Wrap" Text="x" Canvas.Top="40" Height="33" FontSize="24" FontWeight="Bold"/>
+        <TextBlock x:Name="letter3" Canvas.Left="-79" TextWrapping="Wrap" Text="x" Canvas.Top="78" Height="32" FontWeight="Bold" FontSize="24"/>
+        <TextBlock x:Name="letter4" Canvas.Left="-79" TextWrapping="Wrap" Text="x" Canvas.Top="115" Height="32" FontSize="24" FontWeight="Bold"/>
+        <TextBlock x:Name="letter5" Canvas.Left="-79" TextWrapping="Wrap" Text="x" Canvas.Top="152" Height="32" FontSize="24" FontWeight="Bold"/>
+        <TextBlock x:Name="letter7" Canvas.Left="-79" TextWrapping="Wrap" Text="x" Canvas.Top="226" Height="32" FontSize="24" FontWeight="Bold"/>
+        <TextBlock x:Name="letter8" Canvas.Left="-79" TextWrapping="Wrap" Text="x" Canvas.Top="263" Height="32" FontWeight="Bold" FontSize="24"/>
+        <TextBlock x:Name="letter9" Canvas.Left="-79" TextWrapping="Wrap" Text="x" Canvas.Top="300" Height="32" FontWeight="Bold" FontSize="24"/>
+        <TextBlock x:Name="letter10" Canvas.Left="-79" TextWrapping="Wrap" Text="x" Canvas.Top="337" Height="32" FontSize="24" FontWeight="Bold"/>
+        <TextBlock x:Name="letter11" Canvas.Left="-79" TextWrapping="Wrap" Text="x" Canvas.Top="374" Height="32" FontSize="24" FontWeight="Bold"/>
+        <TextBlock x:Name="letter12" Canvas.Left="-79" TextWrapping="Wrap" Text="x" Canvas.Top="411" Height="32" FontSize="24" FontWeight="Bold"/>
+        <TextBlock x:Name="letter6" Canvas.Left="-79" TextWrapping="Wrap" Text="x" Canvas.Top="189" Height="32" FontSize="24" FontWeight="Bold"/>
+        <TextBlock x:Name="letter13" Canvas.Left="-79" TextWrapping="Wrap" Text="x" Canvas.Top="448" Height="32" FontSize="24" FontWeight="Bold"/>
+        <TextBlock x:Name="pointstxtB" Canvas.Left="-79" TextWrapping="Wrap" Text="0" Canvas.Top="515" Height="33" FontWeight="Bold" Width="31" FontSize="24" TextAlignment="Center"/>
+        <TextBlock x:Name="nicklbl" Canvas.Left="-47" TextWrapping="Wrap" Canvas.Top="-30" Height="23" Width="132" FontWeight="Bold" FontStyle="Italic" FontSize="14"/>
+
+    </Canvas>
+
+
+
+
+
+</Window>
+
+
+
+
+

@@ -1,0 +1,24 @@
+﻿<Window x:Class="Application_Dev_Project.UserName"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Application_Dev_Project"
+        mc:Ignorable="d"
+        Title="UserName" Height="300" Width="300">
+    <Grid>
+        <Button x:Name="getUNbtn" Content="Done" HorizontalAlignment="Left" Margin="107,216,0,0" VerticalAlignment="Top" Width="75" Click="getUNbtn_Click"/>
+        <TextBox x:Name="userameNick" HorizontalAlignment="Left" Height="23" Margin="10,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262"/>
+        <Label x:Name="userNameLbl" Content="Enter your nickname" HorizontalAlignment="Left" Margin="65,33,0,0" VerticalAlignment="Top" Width="134"/>
+        <RadioButton x:Name="SpellingRbtn" Content="Spelling" HorizontalAlignment="Left" Margin="46,148,0,0" VerticalAlignment="Top" Checked="SpellingRbtn_Checked"/>
+        <RadioButton x:Name="SquaresRbtn" Content="Squares" HorizontalAlignment="Left" Margin="46,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.482,0.178" Checked="SquaresRbtn_Checked"/>
+        <Label x:Name="intstructionLbl" Content="Select the type of game" HorizontalAlignment="Left" Margin="72,100,0,0" VerticalAlignment="Top" Cursor=""/>
+
+    </Grid>
+</Window>
+
+
+
+
+
+
